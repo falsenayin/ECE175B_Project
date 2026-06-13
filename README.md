@@ -28,9 +28,6 @@ input tokens while keeping answer accuracy and grounding reasonable.
   - average input tokens
   - latency
 
-The code uses environment variables for API keys. No API keys are stored in the
-repo.
-
 ## Setup
 
 ```bash
@@ -135,9 +132,3 @@ python3 analyze_extensions.py
 - `build_cross_model_report.py`: combined cross-model summary
 - `run_extensions.py`: extra ablations and stress tests
 - `analyze_extensions.py`: summary tables and figures for extension runs
-
-## Reproducibility Notes
-
-The repo does not include raw outputs, downloaded datasets, or API keys. These
-are excluded to keep the GitHub submission small and safe. The final report
-contains the numerical results from the completed runs.
